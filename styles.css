@@ -1,0 +1,162 @@
+
+/*
+      Created By: Stephen Robinson
+      Date: 6/6/2017
+*/
+
+/*
+      Colors
+      Yankees Blue:     #13293D
+      Sapphire Blue:    #006BA6
+      Bright Cerulean:  #1B98E0
+      Azure:            #0496FF
+      Anti-Flash White: #E8F1F2
+      Dark Tangerine:   #FCA311
+      Ruddy Brown:      #BD632F
+*/
+
+/* Comment Templates */
+/* */
+/* ----------------------------- */
+
+
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+header, footer {
+  background-color: #13293D;
+  color: #E8F1F2;
+}
+
+header h1 {
+    margin: 0;
+    
+}
+
+header h2 {
+    margin: 0 0 10px 0;
+
+}
+
+footer {
+    font-size: 12px;
+    margin: 0;
+    padding: 10px;
+    
+}
+
+footer ul {
+    text-align: center;
+    background-color: #FCA311;
+    padding: 5px;
+}
+
+footer ul li {
+    display: inline-block;
+    list-style-type: none;
+
+}
+
+footer ul li a {
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+footer ul li a:hover {
+    background-color: #BD632F;
+    text-decoration: none;
+}
+header {
+    padding-top: 10px;
+}
+body {
+    background-color: #1B98E0;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.75em;
+    margin: 0;
+}
+nav {
+    background-color: #FCA311;
+    margin: 0;
+}
+
+nav ul {
+    padding: 10px;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+}
+
+li { 
+    list-style-type: disc;
+    text-align: left; 
+}
+nav ul li a {
+
+    padding: 10px;
+    background-color: #FCA311;
+    text-decoration: none;
+    text-align: justify;
+    margin: 0;
+}
+
+nav li a:hover {
+    background-color: #BD632F;
+    text-decoration: none;
+
+}
+
+section {
+    padding: 10px 5px 10px 5px;
+    margin: 0;
+}
+
+
+.intro img {
+    border-radius: 50%;
+}
+
+.profile-img {
+        height: 300px;
+        width: 300px;
+}
+
+.topname {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 3em;
+    font-weight: normal;
+}
+ .content-wrap {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.intro p {
+    text-align: justify
+}
+.experience, .skills, .education, .projects, .intro {
+    padding-top: 5%;
+    padding-bottom: 15%; 
+}
